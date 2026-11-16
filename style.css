@@ -1,0 +1,38 @@
+html {
+	background-color: darkgray;
+}
+
+body {
+	font-family: system-ui, sans-serif;
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+	margin: 0;
+	text-align: center;
+}
+
+button {
+	padding: 0.6rem 1.2rem;
+	font-size: 1rem;
+	border-radius: 8px;
+	border: 0;
+	background: #ec3750;
+	color: white;
+	cursor: pointer;
+}
+
+.Subdivider {
+	padding: 0.1rem;
+	padding-bottom: 2rem;
+	font-size: 1rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.Section {
+	background-color: gray;
+	width: 30vw;
+	height: 50vh;
+}
